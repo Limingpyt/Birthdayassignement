@@ -1,19 +1,14 @@
-a = "uncle"
-print (f"Dear {a},")
-print ("let's celebrate your")
-date = 2023
-bdate = 1948
-print (date-bdate)
-print ("years of awesomess!")
-
-age = 75
+name = input ("Enter Recipient's name:")
+age = input("Enter year of birth: ")
 after_conv = int(age)
-print (type(after_conv))
-print ("Wishing you a day filled with joy " + "and laughter as you turn " + str(age)+".")
+age2 = 2023 - after_conv
+message = input ("Enter personalised message:")
+sender_name = input ("Enter Sender's name:")
 
-pers_message = "I hope you like the cake I made for you"
-print (f"{pers_message}!")
-
+print ("Dear " + name + ",")
+print ("let's celebrate your")
+print ("years of awesomess!")
+print ("Wishing you a day filled with joy " + "and laughter as you turn " + str(age2) + ".")
+print (message)
 print ("With love and best wishes,")
-sender_name = "Liming"
-print (f"{sender_name}")
+print (sender_name)
